@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int a=5;
-    int &b=a;// b i
+    int &b=a;// b is reference variable
     cout<<a<<endl;
     cout<<b<<endl;
     a=10;
