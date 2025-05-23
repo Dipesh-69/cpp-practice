@@ -1,4 +1,4 @@
-// Constructor overloading
+// Q.can a constructor accept object as an argument? justify
 
 #include<iostream>
 using namespace std;
