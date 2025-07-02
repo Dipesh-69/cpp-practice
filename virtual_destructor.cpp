@@ -1,3 +1,6 @@
+// uses of virtual destructor
+
+
 #include<iostream>
 using namespace std;
 
@@ -11,7 +14,7 @@ class pikachu // parent
     }
 
     // virtual destructor
-    virtual ~pikachu()  //without making virtual , destructor of parent can't be called 
+    virtual ~pikachu()  //without making virtual , destructor of child can't be called 
     {
         cout<<" Destructor of pikachu"<<endl;
     }
