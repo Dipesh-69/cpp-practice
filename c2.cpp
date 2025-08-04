@@ -13,10 +13,10 @@ using namespace std;
 
         }
       
-        Ninja( Ninja & hatori) // copy constructor
+        Ninja( Ninja & hatori) // copy constructor  // hatori = a ;
         {
             cout<<"aw aw  aw .. "<<endl;
-            power=hatori.power;
+            power= hatori.power;
 
         }
         void display()
@@ -26,7 +26,7 @@ using namespace std;
  }; 
  int main ()
  {
-    Ninja a;
+    Ninja a;  // automatically call constructor
     
 
     Ninja b(a);     // it call copy constructor
