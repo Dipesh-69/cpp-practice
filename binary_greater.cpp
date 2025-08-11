@@ -26,7 +26,7 @@ class nice
         }
         else
         {
-            cout << "smallest" << num << endl;
+            cout << "smallest" << b.num << endl;
         }
     }
 };
